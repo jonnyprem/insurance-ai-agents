@@ -1,9 +1,16 @@
 from __future__ import annotations
 
 import os
+import sys
 from pathlib import Path
 
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+# Ensure the project root is on sys.path so imports like `from app...` work
+# when running this script directly (e.g. `python scripts/ingest.py`).
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 

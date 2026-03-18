@@ -1,5 +1,14 @@
 from __future__ import annotations
 
+import os
+import sys
+from pathlib import Path
+
+# Ensure the project root is on sys.path so `from app...` works when running this script directly.
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 from app.llm import get_llm
 from app.rag_pipeline import generate_answer
 from app.retriever import get_retriever
