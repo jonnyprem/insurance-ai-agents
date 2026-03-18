@@ -1,0 +1,16 @@
+Insurance FAQ
+
+1. What does the standard health insurance plan cover?
+The standard plan covers preventive care, doctor visits, hospitalization, emergency services, prescription drugs, and approved specialist consultations.
+
+2. What is excluded from coverage?
+Cosmetic procedures, experimental treatments unless pre-approved, and services received outside the approved provider network are excluded unless specifically stated in the policy.
+
+3. How do I file a claim?
+Members can file a claim by submitting the claim form, itemized invoices, and supporting medical records through the internal claims portal or by email to claims@exampleinsure.local.
+
+4. How long does claims processing take?
+Clean claims are typically processed within 7 to 10 business days after all required documents are received.
+
+5. Is pre-authorization required?
+Pre-authorization is required for inpatient admissions, major diagnostic imaging, and certain specialty medications.
